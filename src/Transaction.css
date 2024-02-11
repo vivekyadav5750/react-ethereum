@@ -1,0 +1,58 @@
+/* App.css */
+.transaction-page {
+    text-align: center;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  @media (max-width: 400px) {
+    th, td {
+      font-size: 14px;
+    }
+    .table-container {
+        overflow-x: scroll;
+      }
+  }
+
+.nav-bar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: rgb(127, 160, 250);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+.nav-bar a{
+    align-items: center;
+    text-decoration: none;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+}
